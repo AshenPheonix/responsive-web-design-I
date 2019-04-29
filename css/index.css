@@ -165,6 +165,32 @@ hr{
 	margin:1em 0;
 }
 
+@media(max-width:800px){
+	header{
+		display:flex;
+		flex-direction:column-reverse;
+		margin:auto;
+		width:800px;
+		text-align: center;
+	}
+	body{
+		width:800px;
+		padding:0;
+	}
+	img{
+		max-width: 800px;
+	}
+	nav{
+		display:flex;
+	}
+	.container{
+		padding:1em;
+	}
+	.container section{
+		padding:.5em;
+	}
+}
+
 @media(max-width:500px){
 	header nav a{
 		display:none;
@@ -239,31 +265,5 @@ hr{
 	}
 	#line1 section,#line2 section{
 		width:95%;
-	}
-}
-
-@media(max-width:800px){
-	header{
-		display:flex;
-		flex-direction:column-reverse;
-		margin:auto;
-		width:800px;
-		text-align: center;
-	}
-	body{
-		width:800px;
-		padding:0;
-	}
-	img{
-		max-width: 800px;
-	}
-	nav{
-		display:flex;
-	}
-	.container{
-		padding:1em;
-	}
-	.container section{
-		padding:.5em;
 	}
 }
