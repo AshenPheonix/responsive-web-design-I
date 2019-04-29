@@ -153,8 +153,6 @@ section button{
 }
 body{
 	padding:0 1em;
-	width:1200px;
-	margin:auto;
 }
 
 footer{
@@ -245,6 +243,7 @@ hr{
 	}
 	body{
 		padding:0;
+		width:500px;
 	}
 	#main section.container{
 		display:flex;
