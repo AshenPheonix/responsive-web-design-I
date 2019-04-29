@@ -232,6 +232,7 @@ h2{
 		align-items: flex-start;
 		padding-top: 1em;
 		margin-bottom:35px;
+		padding-left: 0;
 	}
 	.show img{
 		margin-top:45px;
