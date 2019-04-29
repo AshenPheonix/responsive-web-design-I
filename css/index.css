@@ -153,6 +153,8 @@ section button{
 }
 body{
 	padding:0 1em;
+	width:1200px;
+	margin:auto;
 }
 
 footer{
