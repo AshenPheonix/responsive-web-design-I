@@ -1,0 +1,10 @@
+document.getElementById('because').addEventListener('click',(e)=>{
+    if(document.getElementById('winkyface').classList.length<1){
+        document.getElementById('winkyface').classList.add('show')
+        document.getElementById('navbar').classList.add('show')
+    }
+    else{
+        document.getElementById('winkyface').classList.remove('show')
+        document.getElementById('navbar').classList.remove('show')
+    }
+})
