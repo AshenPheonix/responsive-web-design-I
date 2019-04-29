@@ -171,7 +171,7 @@ hr{
 		display:flex;
 		flex-direction: column;
 		padding:1em 0;
-		height:300px;
+		max-height: 350px;
 	}
 	header nav.show a{
 		display:block;
@@ -179,17 +179,25 @@ hr{
 		background-color:white;
 		width: 500px;
 		border-bottom: solid black 1px;
-		margin:0;	
+		margin:0;
 	}
 	header img{
 		margin:auto;
+		padding:.5em;
+		margin-top:1em;
 	}
 	header{
 		width:500px;
 	}
 	header.show{
 		height:350px;
+		flex-direction: column-reverse;
 		align-items: flex-start;
+		padding-top: 1em;
+		margin-bottom:35px;
+	}
+	.show img{
+		margin-top:45px;
 	}
 	#winkyface{
 		width: 500px;
@@ -202,8 +210,10 @@ hr{
 	}
 	#central{
 		width:500px;
-		font-size: 50pt;
 		margin:auto;
+	}
+	#central section{
+		font-size: 50pt;
 	}
 	body{
 		padding:0;
@@ -227,5 +237,31 @@ hr{
 	}
 	#line1 section,#line2 section{
 		width:95%;
+	}
+}
+
+@media(max-width:800px){
+	header{
+		display:flex;
+		flex-direction:column-reverse;
+		margin:auto;
+		width:800px;
+		text-align: center;
+	}
+	body{
+		width:800px;
+		padding:0;
+	}
+	img{
+		max-width: 800px;
+	}
+	nav{
+		display:flex;
+	}
+	.container{
+		padding:1em;
+	}
+	.container section{
+		padding:.5em;
 	}
 }
